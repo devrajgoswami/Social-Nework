@@ -1,0 +1,28 @@
+
+.loginFormField{
+    height:25px;
+    width:160px;
+    border-style:groove;
+}
+.loginFormButton{
+    height:25px;
+    width:61px;
+    border-style:groove;
+    background-color:azure;
+}
+.registerFormField{
+    height:25px;
+    width:250px;
+    border-style:groove;
+}
+.registerFormButton{
+    height:25px;
+    width:120px;
+    border-style:groove;
+    background-color:azure;
+}
+input:focus{
+    background-color:beige;
+    border-color:yellowgreen;
+    border-style:ridge;
+}

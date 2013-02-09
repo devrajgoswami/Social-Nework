@@ -1,0 +1,246 @@
+body{
+      background-color:#6495ED;
+/*    background-color:cornflowerblue;*/
+/*    background-color:white;*/
+}
+a{
+    text-decoration:none;
+    color:whitesmoke;
+}
+a:visited{
+    color:whitesmoke;
+}
+a:hover{
+    text-decoration:underline;
+}
+div{
+    margin:2px;
+    border:2px groove teal;
+/*    padding: 2px;*/
+    
+}
+#mast{
+    position:relative;
+    width:1020px;
+    height: 50px;
+    left: 50%;
+    margin-left: -512px;
+}
+#mast #logo{
+    position:relative;
+    width:200px;
+    height:42px;
+    float:left;
+}
+#mast #search{
+    position:relative;
+    width:499px;
+    height:30px;
+    margin-top:15px;
+    margin-left:0px;
+    float:left;
+}
+#mast #search #searchBox{
+    position:relative;
+    margin: 4px 5px;
+    width:400px;/*
+    border-style:groove;
+    border-right:2px inset gray;
+    border-bottom:2px inset gray;*/
+}
+#mast #search #searchButton{
+    position:relative;
+    width:80px;
+    
+}
+#mast > #navigator{
+    position:relative;
+    width:300px;
+    height:30px;
+    margin:15px 2px 0px 0px;
+    float:right;
+}
+#mast > #navigator > a, #test{
+    position:relative;
+    height:90%;
+    width:94px;
+    float:right;
+    margin:0px 2px;
+    text-align:center;
+    text-decoration:none;
+/*    font-size:13px;*/
+    font-family:cursive;
+    font-weight:bold;
+    border:1px groove #000000;
+}
+#test{
+    border-color:green;
+}
+#mast > #navigator > a:hover{
+    background-color:#5480ED;
+    margin:0px 1px;
+/*    height:-4px;*/
+    width:-4px;
+    border-width:2px;
+}
+
+#container{
+    position:relative;
+    width:1020px;
+    min-height:800px;
+    height:auto !important;
+    left: 50%;
+    margin-left:-512px;
+    border-bottom-width:0px;
+}
+#container #left{
+    position:relative;
+    width:204px;
+    float:left;
+    margin:0px 2px 0px 2px;
+    border-width:0px;
+}
+#container #left #profilePic{
+    width:200px;
+    float:left;
+/*    height:300px;*/
+    margin:0px;
+}
+#container #left #details{
+    width:200px;
+    float:left;
+    height:400px;
+    margin:10px 0px;
+}
+#container #left #addFriend{
+    width:200px;
+    float:left;
+    margin:10px 0px;
+}
+#container #content{
+    position:relative;
+    width:499px;
+    float:left;
+    min-height:800px;
+    height:auto !important;
+    margin:0px;
+}
+#container #content #status{
+    position:relative;
+    margin:0px;
+    width:495px;
+    float:left;
+    height:70px;
+}
+#container #right{
+    position:relative;
+    width:302px;
+    float:right;
+    margin:0px 2px 0px 2px;
+    border-width:0px;
+}
+#container #right #friendList{
+    position:relative;
+    width:300px;
+    float:right;
+    margin:0px;
+/*    height:365px;*/
+}
+#container #right #friendList #friendHeader{
+    position:relative;
+    width:97%;
+    height:30px;
+    float:right;
+    text-align:center;
+    color:#000000;
+}
+#container #right #friendList .friend{
+    width:92px;
+    float:left;
+    height:110px;
+    transition:width 2s, height 2s;
+    transition-delay: 1s;
+    -moz-transition: -moz-transform 3s; /* Firefox 4 */
+    -moz-transition-delay: 1s;
+    -webkit-transition:-webkit-transform 2s; /* Safari and Chrome */
+    -webkit-transition-delay: 1s;
+    -o-transition: -o-transform 2s; /* Opera */
+    -o-transition-delay: 1s;
+}
+#container #friendList .friend:hover{
+    background-color:#5480ED;
+    margin:0px;
+    border-width:4px;
+    transform:rotate(30deg);
+    -moz-transform:rotate(360deg); /* Firefox 4 */
+    -webkit-transform:rotate(30deg); /* Safari and Chrome */
+    -o-transform:rotate(30deg); /* Opera */
+}
+#container #right #friendRequest{
+    position:relative;
+    width:300px;
+    float:right;
+    margin:0px;
+/*    height:365px;*/
+}
+#container #right #friendRequest .requests{
+    position:relative;
+    width:295px;
+    height:90px;
+    float:right;
+    margin:0px;
+    margin-top:3px;
+/*    height:365px;*/
+}
+#moodBox{
+    width: 485px;
+    height: 35px;
+}
+#moodButton{
+    position: relative;
+    width: 100px;
+    float: right;
+}
+#activity{
+    float:left;
+    width:485px;
+    margin-top:3px;
+    border-width:0px;
+    border-top-width:1px;
+    border-style:ridge;
+    padding:5px;
+}
+#activity > #activityTitle{
+    width:480px;
+    elevation:higher;
+    background-color:#5480ED;
+    margin:0px;
+    border-width:0px;
+    padding:0px;
+}
+#activity > #activityTitle > #by{
+    text-align:left;
+}
+#activity > #activityTitle > #at{
+    text-align:right;
+    float:right;
+    font-size:small;
+}
+#activity > #message{
+    font-family:sans-serif;
+}
+#fullName{
+    width:490px;
+    text-transform:capitalize;
+    font-variant:small-caps;
+    font-family:cursive,sans-serif;
+    font-size:35px;
+    font-weight: bold;
+    text-align: left;
+    color: brown;
+}
+#detailData{
+    width:300px;
+    color:#000000;
+    background-color:beige;
+}
